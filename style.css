@@ -1,7 +1,17 @@
-*{margin: 0;
-padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-
+  .contenedor_body {
+    display: grid;
+    grid-template-columns: minmax(auto, 240px) 1fr;
+    grid-template-rows: 100px auto 100px;
+    max-width: 960px;
+    height: 100vh;
+    margin: auto;
+  }
 
 .header__titulo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -11,7 +21,7 @@ padding: 0;}
     padding-left: 10rem;
 }
 .body{
-    
+
 }
 .tituloSecundario1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(235, 11, 141, 1);
