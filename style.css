@@ -26,22 +26,30 @@
 .tituloSecundario1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(235, 11, 141, 1);
     color: rgb(77, 223, 210);
-    height: 100px;
-    padding-left: 10rem;}
+    height:auto;
+    padding-left: 1rem;}
 .tituloSecundario2{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(11, 235, 224, 0.541);
     color: rgb(240, 236, 16);
     position: static;
     height: auto;
     padding-left: 2rem;}
+@keyframes animacionImagen{
+        from{opacity:100%;}
+        to{opacity: 40%;}}
 
 .imagen-estatica{
+    background-image: radial-gradient(100% 50% 50%);
     opacity: 40%;
     position: sticky;
     top: 0px;
-    width: 100%;
+    width:100%;
+    animation-name: animacionImagen;
+    animation-duration: 7s;
+    
 
 }
+
 .texto-imagen{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: sticky;
     top: 50px;
