@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-.header__nav{
+.header__nav {
     display: flex;
-    flex-direction: row;
-
+    padding: auto;
 }
-
+.nav {
+    padding-left: 30px;
+}
 .header__titulo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(95, 90, 90);
@@ -17,18 +18,20 @@
     height: 50px;
     padding-left: 10rem;
 }
+
 .contenedor_body {
     display: grid;
-   /*  grid-template-columns: minmax(auto, 240px) 1fr;
+    /*  grid-template-columns: minmax(auto, 240px) 1fr;
     grid-template-rows: 100px auto 100px;*/
     max-width: 960px;
     height: 100vh;
     margin: auto;
     position: relative;
     z-index: 1;
+    padding-top: 20px;
+    animation-name: animacion-padding;
+    animation-duration: 7s;
 }
-
-.body {}
 
 .tituloSecundario1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -37,8 +40,6 @@
     height: auto;
     padding-left: 1rem;
     border-radius: 10px;
-    
-
 }
 
 .tituloSecundario2 {
@@ -60,11 +61,14 @@
     }
 }
 
-@keyframes animacion-texto {
+@keyframes animacion-padding {
     from {
-        color:rgba(235, 11, 141, 1) ;
+        padding-top: 600px;
     }
-    to{color: black;}
+
+    to {
+        padding-top: 20px;
+    }
 
 }
 
@@ -76,8 +80,6 @@
     width: 100%;
     animation-name: animacion-imagen;
     animation-duration: 7s;
-
-
 }
 
 .texto-imagen {
@@ -93,5 +95,3 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(216, 149, 3);
 }
-
-.contenedor {}
