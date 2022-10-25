@@ -6,8 +6,8 @@
 
   .contenedor_body {
     display: grid;
-    grid-template-columns: minmax(auto, 240px) 1fr;
-    grid-template-rows: 100px auto 100px;
+   /*  grid-template-columns: minmax(auto, 240px) 1fr;
+    grid-template-rows: 100px auto 100px;*/
     max-width: 960px;
     height: 100vh;
     margin: auto;
