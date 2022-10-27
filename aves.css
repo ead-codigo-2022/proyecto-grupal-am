@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -7,13 +6,20 @@
 
 .carrusel{
     border: 1px solid black;
-
+    height: 400px;
+    position: relative;
 }
 .tarjeta_carrusel{
     background-color: rgb(52, 231, 231);
-
+    height: 100%;
 }
 .flecha_carrusel{
     background-color: 666;
-
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
