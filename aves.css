@@ -1,6 +1,19 @@
-.body{
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carrusel{
+    border: 1px solid black;
 
 }
-.body__containes{
-    
+.tarjeta_carrusel{
+    background-color: rgb(52, 231, 231);
+
+}
+.flecha_carrusel{
+    background-color: 666;
+
 }
