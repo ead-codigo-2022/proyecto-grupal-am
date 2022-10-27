@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#content_carrusel{
+    height: 400px;
+    overflow: hidden;
+}
 .carrusel{
     border: 1px solid black;
     height: 400px;
@@ -22,4 +26,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjeta_carrusel_1{
+    background-color: rgb(172, 172, 236);
+}
+#tarjeta_carrusel_2{
+    background-color: rgb(205, 236, 172);
+}
+#tarjeta_carrusel_3{
+    background-color: rgb(241, 153, 222);
+}
+
+a{
+    text-decoration: none;
 }
