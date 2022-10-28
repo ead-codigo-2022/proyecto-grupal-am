@@ -15,8 +15,8 @@
 
 .contenedor_body {
     display: grid;
-    /*  grid-template-columns: minmax(auto, 240px) 1fr;
-    grid-template-rows: 100px auto 100px;*/
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
     max-width: 960px;
     height: 100vh;
     margin: auto;
@@ -38,11 +38,12 @@
 
 .tituloSecundario2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(11, 235, 224, 0.541);
-    color: rgb(20, 0, 0);
+    background-color:black;
+    color:white;
     position: static;
     height: auto;
     padding-left: 2rem;
+    border-radius: 10px;
 }
 
 @keyframes animacion-imagen {
