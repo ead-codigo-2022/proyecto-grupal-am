@@ -95,7 +95,6 @@ img{
     border-radius: 5px;
     background: var(--i);
     background-size: cover;
-    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
     overflow: hidden;
 }
 
@@ -114,6 +113,7 @@ img{
 .content h2, a {
     color: rgba(255, 255, 255, .8);
     margin: 10px 0;
+    text-decoration: none;
 }
 
 .card:hover .content {
