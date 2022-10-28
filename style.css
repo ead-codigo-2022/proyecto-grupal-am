@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.contenedor_body {
+    display: grid;
+    grid-template-columns: minmax(auto, 250px) 1fr;
+    grid-template-rows: auto auto 100px;
+    max-width: 960px;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    animation-name: animacion-padding;
+    animation-duration: 7s;
+    padding-top: 20px;
+}
+
 .header__titulo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(95, 90, 90);
@@ -57,12 +71,9 @@
 
 @keyframes animacion-padding {
     from {
-        padding-top: 600px;
+        padding-top: 600px ;
     }
-
-    to {
-        padding-top: 20px;
-    }
+    to{padding-top: 20px;}
 
 }
 
