@@ -8,10 +8,22 @@
 
 
     grid-template-columns:130px auto  auto;
+    
     padding: 10px 0px 10px 0px;
 
 }
-
+.container__1__vinculo{
+    height: 30px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    right: 0.5fr;
+    top: calc(auto/10*8);
+}
 .container__1__img {
    
 
@@ -30,7 +42,7 @@ text-align: match-parent;
 padding-top: 40px;
 padding-left: 10px;
 }
-.container__1__text {
+.container__1__text { 
     z-index: 1;
     margin-right: 20px;
     margin-left:20px ;
