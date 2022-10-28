@@ -1,7 +1,40 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: solid;
+    color: white;
+}
+
+.nav {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    column-gap: 5%;
+    flex-direction: row;
+    justify-content: auto;
+    z-index: 1;
+}
+
+.nav_logo{   
+font-size: 1.8rem;
+padding: 10px;
+}
+
+.nav_manu{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    display: flex;
+    align-items: center;
+    transition: all 0.1s linear;
+}
+
+.nav_manu:hover {
+	color:#bbb;
+	font-size:1.5rem;
+	transition: all 0.1s linear;
 }
 
 .header__titulo {
