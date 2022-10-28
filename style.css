@@ -46,6 +46,7 @@
     height: auto;
     padding-left: 2rem;
     border-radius: 10px;
+    grid-column: 1/2;
 }
 
 @keyframes animacion-imagen {
