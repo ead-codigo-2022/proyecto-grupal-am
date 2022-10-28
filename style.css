@@ -29,7 +29,7 @@
 
 .tituloSecundario1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(235, 11, 141, 0.5);
+    background-color: rgba(235, 11, 141, 0.0);
     color: rgb(0, 0, 0);
     height: auto;
     padding-left: 1rem;
@@ -80,7 +80,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: sticky;
     top: 50px;
-    color: rgb(216, 149, 3);
+    color: rgb(122, 84, 2);
     height: auto;
     padding-left: 0;
 }
