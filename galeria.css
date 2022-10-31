@@ -39,7 +39,6 @@
     
 }
 
-
 .nav_manu:hover {
     color: #bbb;
     font-size: 1.5rem;
@@ -47,10 +46,22 @@
 }
 
 .galeria{
-    color: white;
     background-color: rgb(204, 37, 37);
-    padding: 20px;
+    max-width: 98%;
+    height: auto;
+    margin: auto;
+    position: relative;
   
+}
+.galeria_texto{
+    background-color: aqua;
+    padding: 20px;
+    justify-content: center;
+    max-width: 980px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
 }
 
 .galeria_container{
@@ -63,5 +74,17 @@
 }
 
 .galeria_pantone{
-
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgba( 225, 225, 225, 0.5);
+    padding: 5%;
+    border-radius: 10px;
+}
+.galeria-colores_imagen {
+    max-width: 100%;
+    border-radius: 2%;
+    padding: 5%;
 }
