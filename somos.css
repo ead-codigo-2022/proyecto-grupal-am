@@ -23,6 +23,8 @@
     font-size: 1.8rem;
     padding: 10px;
     z-index: 1;
+    text-decoration: none;
+    text-decoration: solid;
 }
 
 .nav_manu {
