@@ -76,7 +76,6 @@
     display: grid;
     grid-template-rows: 25% 75%;
     grid-template-columns: 25% 25% 25% 25%;
-    padding: 5%;
     border-radius: 10px;
     position: relative;
     
