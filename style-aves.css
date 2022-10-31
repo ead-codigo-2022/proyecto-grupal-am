@@ -38,6 +38,27 @@ opacity: 100%;
     left: 20px;
     top: auto/2;
 }
+.nav_manu_aves{ 
+    padding: 10px;
+    display: flex;
+    height: 1fr;
+    width: 100px;
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.1s linear;
+    z-index: 1; 
+    text-decoration: none;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    background-color: dimgray;
+}
+
+
+.nav_manu_aves:hover {
+	color:rgb(0, 0, 0, 0.5);
+	font-size:1.5rem;
+	transition: all 0.1s linear;
+}
 
 .container__1__img {
 

@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+
 }
+:root{ --c: #ffff;}
 
 .nav {
     color: white;
@@ -23,7 +25,7 @@ padding: 10px;
 z-index: 1; 
 }
 
-.nav_manu{
+.nav_manu{ 
     padding: 10px;
     display: flex;
     align-items: center;
@@ -31,13 +33,40 @@ z-index: 1;
     z-index: 1; 
     text-decoration: none;
     text-decoration: solid;
-    color: white;
+    color: var(--c);
 }
 
 
 .nav_manu:hover {
 	color:#bbb;
 	font-size:1.5rem;
+	transition: all 0.1s linear;
+}
+    
+.nav_manu_aves_index{ 
+    padding: 10px;
+    padding-left: -5rem;
+    display: flex;
+    height: 1fr;
+    width: auto;
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.1s linear;
+    z-index: 1; 
+    text-decoration: none;
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+   
+}
+.ul_non_format{list-style: none;
+ }
+
+
+.nav_manu_aves_index:hover {
+	color:rgb(0, 0, 0, 1);
+    background-color: rgba(253, 249, 0, 0.37);
+	font-size:1.7rem;
 	transition: all 0.1s linear;
 }
 
@@ -58,11 +87,12 @@ z-index: 1;
     height: 100vh;
     margin: auto;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     padding-top: 20px;
     animation-name: animacion-padding;
     animation-duration: 7s;
     column-gap: 5%;
+    row-gap: 5%;
 }
 
 .tituloSecundario1 {
@@ -73,6 +103,7 @@ z-index: 1;
     padding:20px;
     border-radius: 10px;
     grid-column: 1/3;
+    grid-row: 1/2;
 }
 
 .tituloSecundario2 {
@@ -130,4 +161,30 @@ z-index: 1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(238, 215, 167);
     text-decoration: solid;
+}
+.tituloSecundario3{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(235, 11, 141, 0.0);
+    color: rgb(0, 0, 0);
+    height: auto;
+    padding:20px;
+    border-radius: 10px;}
+.tituloSecundario4{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(235, 11, 141, 0.0);
+    color: rgb(0, 0, 0);
+    height: auto;
+    padding:20px;
+    border-radius: 10px;
+text-align: center;}
+.tituloSecundario5{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(235, 11, 141, 0.0);
+    color: rgb(0, 0, 0);
+    background-color: rgba(179, 67, 119, 0.521);
+    height: auto;
+    padding:20px;
+    border-radius: 10px;}
+.galeria-colores{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: grid;
+    columns: auto;
 }

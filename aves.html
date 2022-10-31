@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colores&Humedales</title>
-    <link rel="stylesheet" href="aves.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-aves.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -15,67 +15,20 @@
 
 <body>
     <img class="contenedor-img-general" src="./img/degradado chorlo nevado1.jpg" alt="imagen_degradado_fondo">
-    <header class="contenedor-header">
-        <nav class="navbar navbar-expand-lg bg-light header__titulo">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Colores & Humedales</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            
-                            <a class="nav-link active"  aria-current="page" href="#">Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Iniciativas</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./aves.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Busca Tu Ave
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Especie</a></li>
-                                <li><a class="dropdown-item" href="#">Color</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Hábitat</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Territorio
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Costa</a></li>
-                                <li><a class="dropdown-item" href="#">Cordillera de la Costa</a></li>
-                                <li><a class="dropdown-item" href="#">Depresión Intermedia</a></li>
-                                <li><a class="dropdown-item" href="#">Cordillera de los Andes</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Contáctanos</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+    <header class="nav">
+        <ul class="nav_logo" href="index.html" >
+         Color & Humedales
+        </ul>
+                <a class="nav_manu" href="#">Somos</a>
+                <a class="nav_manu" href="./aves.html">Busca tu ave</a>
+                <a class="nav_manu" href="#">Territorio</a>
+                <a class="nav_manu" href="./galeria.html">Galería</a> 
     </header>
 
 
 
     <ul>
-        <li class="container__1"><a class="container__1__vinculo" href="./garza-chica.html">Garza chica</a><img
+        <li class="container__1" ><a class="nav_manu_aves" href="./garza-chica.html" >Garza chica</a><img
                 class="container__1__img" src="./img/garza chica portales.jpeg" alt="Garza_chica">
             <p class="container__1__text">Garza blanca de tamaño mediano. Con pico largo, delgado y negro. Lorum
                 amarillo (área entre el ojo y el
@@ -85,7 +38,7 @@
                 más grande que Cattle Egret y más propensa a tener sus pies en el agua en lugar de caminar en
                 pastizales. </p>
         </li>
-        <li class="container__1"> <a class="container__1__vinculo" href="./come-tocino.html">Come tocino</a>
+        <li class="container__1"> <a class="nav_manu_aves" href="./come-tocino.html">Come tocino</a>
             <img class="container__1__img" src="./img/come_tocino.jpg" alt="come_tocino">
 
             <p class="container__1__text">Tangara pequeña y atractiva; se encuentra en matorrales desde los Altos Andes
@@ -98,7 +51,7 @@
 
             </p>
         </li>
-        <li class="container__1"><a class="container__1__vinculo" href="./chorlito-nevado.html">Chorlito nevado</a><img
+        <li class="container__1"><a class="nav_manu_aves" href="./chorlito-nevado.html">Chorlito nevado</a><img
                 class="container__1__img" src="./img/chorlo_nevado.jpg" alt="chorlo_nevado">
 
 
@@ -112,7 +65,7 @@
 
             </p>
             </a>
-        <li class="container__1"><a class="container__1__vinculo"
+        <li class="container__1"><a class="nav_manu_aves"
             href="./playero-de-las-rompientes.html">Playero de las rompientes</a>
             <img class="container__1__img" src="./img/playero_de_las_rompientes.jpg"
                 alt="playero_de_las_rompientes">
