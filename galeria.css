@@ -45,3 +45,23 @@
     font-size: 1.5rem;
     transition: all 0.1s linear;
 }
+
+.galeria{
+    color: white;
+    background-color: rgb(204, 37, 37);
+    padding: 20px;
+  
+}
+
+.galeria_container{
+    background-color: rgb(176, 94, 94);
+    display: flex;
+    column-gap: 2%;
+    height: auto;
+    padding: 20px;
+    
+}
+
+.galeria_pantone{
+
+}
