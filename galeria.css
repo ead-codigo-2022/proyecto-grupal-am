@@ -86,6 +86,20 @@
     border-radius: 2%;
     padding: 2%;
     flex-wrap: wrap;
+    opacity: 1;
+    transition: .5s;
 
 }
 
+.galeria-colores_imagen:hover {
+    opacity: 0.8;
+}
+
+.geleria_especie{
+    background-size: cover;
+    overflow: hidden;
+    text-decoration: none;
+    text-decoration: solid;
+    position: relative;
+    justify-content: center;
+}
