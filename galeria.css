@@ -105,7 +105,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    padding: 10px;
+    padding-top: 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .contenedor figure{
     position:relative;
