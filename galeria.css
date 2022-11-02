@@ -35,6 +35,18 @@
     text-decoration: solid;
     color: var(--c);
 }
+.nav_manu__activ{ padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.1s linear;
+    text-decoration: none;
+    text-decoration: solid;
+    color: var(--c);
+    color: rgb(141, 179, 141);}
+.nav_manu__activ:hover{ color: #bbb;
+    font-size: 1.5rem;
+    transition: all 0.1s linear;}
+    
 
 .nav_manu:hover {
     color: #bbb;
