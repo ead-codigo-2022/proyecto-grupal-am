@@ -30,6 +30,7 @@
     font-size: 1.8rem;
     padding: 10px;
     z-index: 1;
+    color:aqua;
     
 }
 
@@ -51,6 +52,7 @@
     font-size: 1.5rem;
     transition: all 0.1s linear;
 }
+
 
 .nav_manu_aves_index {
     padding: 10px;
