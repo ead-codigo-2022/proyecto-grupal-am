@@ -44,19 +44,24 @@
 
 .galeria{
     max-width: 98%;
-    height: auto;
+    height: 90vh;
     margin: auto;
     position: relative;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    padding-top: 18%;
+
 }
 
 .galeria_texto{
-    justify-content: center;
     max-width: 980px;
     height: auto;
     margin: auto;
     margin-top: 40px;
     position: relative;
 }
+
 /*
 .galeria_container{
     display: flex;
